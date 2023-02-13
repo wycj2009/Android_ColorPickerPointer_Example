@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3">
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#F44336" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#E91E63" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#9C27B0" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#673AB7" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#3F51B5" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#2196F3" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#03A9F4" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#00BCD4" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#009688" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#4CAF50" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#8BC34A" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#CDDC39" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFEB3B" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FFC107" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FF9800" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#FF5722" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#795548" />
+
+        <ImageView
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="#9E9E9E" />
+    </GridLayout>
+
+    <com.example.android_colorpickerpointer_example.ColorPickerPointer
+        android:id="@+id/color_picker_pointer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/color_picker_pointer"
+        android:elevation="5dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
